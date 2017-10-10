@@ -9,6 +9,11 @@
              Room.add(modal.newRoom);
              $uibModalInstance.close();
          };
+
+         modal.createUsername = function () {
+             $cookies.put('blocChatCurrentUser', modal.username);
+             $uibModalInstance.close();
+         }
      }
 
      angular
