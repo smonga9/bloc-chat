@@ -46,7 +46,7 @@ html {
      .messages {
         position: fixed;
         top: 0px;
-        left: 300px;
+        left: 250px;
         width: 80%;
         height: 100%;
         background-color: white;
@@ -55,17 +55,16 @@ html {
     }
 
     .messages-body {
-        padding-right: 50px;
+        padding-right: 10px;
     }
 
     .messages-body .username {
         font-weight: bold;
-        float: left;
     }
 
     .messages-body .timestamp {
-        text-align: right;
-        padding-right: 200px;
+        float: right;
+        padding-right: 100px;
     }
 
     .messages-body .username .timestamp {
@@ -75,6 +74,7 @@ html {
     .messages-body .user-message {
         padding-top: 5px;
         padding-bottom: 5px;
+        display: inline-block;
     }
 
     .message-field {
